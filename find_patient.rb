@@ -2,8 +2,9 @@
 require 'fileutils'
 include FileUtils
 
-# APPOINTMENT DELETED~005736
-# puts /APPOINTMENT DELETED~[0-9]+#{value}/.match(line)
+# A quick little ruby script that
+# goes through every file in the log/'subdirectory'
+# and matches the arguments for each patient ID
 
 
 
@@ -15,7 +16,6 @@ def find_id(value)
       end
     end
   end
-
 end
 
 
